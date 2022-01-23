@@ -1,45 +1,36 @@
 import java.util.Scanner;
-import java.util.Arrays;
-
+ 
 public class TeamContest {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
-		String numString = input.nextLine();
-		int take = 0;
-		int[] numberArr = new int[numString.length()]; 
-		 int countNum =0;
-		if(numString.length()<=100) {
-			//code here
-			for(int i=0;i<numString.length();i++) {
-				if(numString.charAt(i)!='+') {
-					char num = numString.charAt(i);
-					int number = Integer.parseInt(String.valueOf(num));
-					take = take * 10 + number;
-					if(i+1 == numString.length()) {
-						numberArr[countNum] = take;
-						countNum++;
-						take = 0;
-					}
-				}
-				else {
-					numberArr[countNum] = take;
-					countNum++;
-					take = 0;
-				}
-			}
-			int[] sortArr = new int[countNum];
-			for(int i = 0;i<countNum;i++) {
-			    sortArr[i] =numberArr[i];		
-			}
-			Arrays.sort(sortArr);
-			for(int i = 0;i<countNum;i++) {
-			    System.out.print(sortArr[i]);
-			    if(i+1 !=countNum)
-			    	System.out.print("+");
-			}
+		int n = input.nextInt();
+		int [] ans = new int[3];
+		int count =0;
+		int temp =0;
+		if(n>=1 && n<=1000) {
 			
-			//code rest
+			//code here
+			 for(int i = 1;i<=n;i++) {
+				 for(int j=0;j<3;j++) {
+					 ans[j] = input.nextInt();
+				 }
+ 
+				 if(ans[0] ==1 && ans[1]==1 && ans[2] ==1) {
+					 count ++;
+					 continue;
+					 }
+				 else if(ans[0]==1 && ans[1] ==1) 
+					 count ++;
+				 else if(ans[0]==1 && ans[2] ==1)
+					 count ++;
+				 else if(ans[1]==1 && ans[2] ==1)
+					 count ++;
+ 
+			 }
+			 System.out.print(count);
+			
 		}
+		
 	}
 }
