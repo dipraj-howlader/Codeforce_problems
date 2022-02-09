@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class CalculatingFunction {
 
 	public static void main(String[] args) {
+		//code here
 		Scanner inScanner = new Scanner(System.in);
 		long n = inScanner.nextLong();
 		long sum =0;
