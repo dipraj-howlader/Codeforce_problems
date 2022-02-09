@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Drinks {
 
 	public static void main(String[] args) {
+		//code here
 		Scanner inScanner = new Scanner(System.in);
 		int n = inScanner.nextInt();
 		float sum = 0;

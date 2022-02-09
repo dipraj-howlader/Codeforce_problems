@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Hulk {
 
 	public static void main(String[] args) {
+		//code here
 		Scanner inScanner = new Scanner(System.in);
 		int n = inScanner.nextInt();
 		ArrayList<String> hulkEmotion = new ArrayList<String>(); 

@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class UltraFastMathematician {
 
 	public static void main(String[] args) {
+		//code here
 		Scanner inScanner = new Scanner(System.in);
 		String fStrings = inScanner.next();
 		String sStrings = inScanner.next();
