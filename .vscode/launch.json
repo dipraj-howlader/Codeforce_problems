@@ -1,0 +1,316 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AntonandDanik",
+            "request": "launch",
+            "mainClass": "AntonandDanik",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BearAndBigBrother",
+            "request": "launch",
+            "mainClass": "BearAndBigBrother",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeautifulMatrix",
+            "request": "launch",
+            "mainClass": "BeautifulMatrix",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeautifulYear",
+            "request": "launch",
+            "mainClass": "BeautifulYear",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitPlus",
+            "request": "launch",
+            "mainClass": "BitPlus",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoyOrGirl",
+            "request": "launch",
+            "mainClass": "BoyOrGirl",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalculatingFunction",
+            "request": "launch",
+            "mainClass": "CalculatingFunction",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch CapsLock",
+            "request": "launch",
+            "mainClass": "CapsLock",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChatRoom",
+            "request": "launch",
+            "mainClass": "ChatRoom",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch DominoPiling",
+            "request": "launch",
+            "mainClass": "DominoPiling",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Drinks",
+            "request": "launch",
+            "mainClass": "Drinks",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Elephant",
+            "request": "launch",
+            "mainClass": "Elephant",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenOdds",
+            "request": "launch",
+            "mainClass": "EvenOdds",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Expression",
+            "request": "launch",
+            "mainClass": "Expression",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Football",
+            "request": "launch",
+            "mainClass": "Football",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch GeorgeandAccommodation",
+            "request": "launch",
+            "mainClass": "GeorgeandAccommodation",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch GravityFlip",
+            "request": "launch",
+            "mainClass": "GravityFlip",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch HQ9Plus",
+            "request": "launch",
+            "mainClass": "HQ9Plus",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelpfulMaths",
+            "request": "launch",
+            "mainClass": "HelpfulMaths",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hulk",
+            "request": "launch",
+            "mainClass": "Hulk",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch IWannaBetheGuy",
+            "request": "launch",
+            "mainClass": "IWannaBetheGuy",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch InSearchofanEasyProblem",
+            "request": "launch",
+            "mainClass": "InSearchofanEasyProblem",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsomniaCure",
+            "request": "launch",
+            "mainClass": "InsomniaCure",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsYourHorseshoeOnTheOtherHoof",
+            "request": "launch",
+            "mainClass": "IsYourHorseshoeOnTheOtherHoof",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch KefaAndFirstSteps",
+            "request": "launch",
+            "mainClass": "KefaAndFirstSteps",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch LuckyDisivion",
+            "request": "launch",
+            "mainClass": "LuckyDisivion",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch LuckyNumber",
+            "request": "launch",
+            "mainClass": "LuckyNumber",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Magnets",
+            "request": "launch",
+            "mainClass": "Magnets",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextRound",
+            "request": "launch",
+            "mainClass": "NextRound",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Presents",
+            "request": "launch",
+            "mainClass": "Presents",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch SoldierAndBananas",
+            "request": "launch",
+            "mainClass": "SoldierAndBananas",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stons",
+            "request": "launch",
+            "mainClass": "Stons",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringTask",
+            "request": "launch",
+            "mainClass": "StringTask",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Taxi",
+            "request": "launch",
+            "mainClass": "Taxi",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch TeamContest",
+            "request": "launch",
+            "mainClass": "TeamContest",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tram",
+            "request": "launch",
+            "mainClass": "Tram",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Translation",
+            "request": "launch",
+            "mainClass": "Translation",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Twins",
+            "request": "launch",
+            "mainClass": "Twins",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch UltraFastMathematician",
+            "request": "launch",
+            "mainClass": "UltraFastMathematician",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch VanyaAndFence",
+            "request": "launch",
+            "mainClass": "VanyaAndFence",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Word",
+            "request": "launch",
+            "mainClass": "Word",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch WrongSubtraction",
+            "request": "launch",
+            "mainClass": "WrongSubtraction",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch YoungPhysicist",
+            "request": "launch",
+            "mainClass": "YoungPhysicist",
+            "projectName": "src_95618093"
+        }
+    ]
+}
