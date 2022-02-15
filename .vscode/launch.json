@@ -4,7 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch unknown",
+            "request": "launch",
+            "mainClass": "unknown",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dubstep",
+            "request": "launch",
+            "mainClass": "Dubstep",
+            "projectName": "src_95618093"
+        },
         {
             "type": "java",
             "name": "Launch Current File",
