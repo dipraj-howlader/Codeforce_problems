@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IQTest",
+            "request": "launch",
+            "mainClass": "IQTest",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch AntonandLetters",
+            "request": "launch",
+            "mainClass": "AntonandLetters",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Puzzles",
+            "request": "launch",
+            "mainClass": "Puzzles",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch unknown",
             "request": "launch",
             "mainClass": "unknown",
