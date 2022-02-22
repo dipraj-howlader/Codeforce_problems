@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Pangram",
+            "request": "launch",
+            "mainClass": "Pangram",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Games",
+            "request": "launch",
+            "mainClass": "Games",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch IQTest",
             "request": "launch",
             "mainClass": "IQTest",
