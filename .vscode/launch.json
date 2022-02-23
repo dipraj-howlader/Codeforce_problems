@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AntonAndPolyhedrons",
+            "request": "launch",
+            "mainClass": "AntonAndPolyhedrons",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch AmusingJoke",
             "request": "launch",
             "mainClass": "AmusingJoke",
