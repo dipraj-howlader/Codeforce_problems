@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AmusingJoke",
+            "request": "launch",
+            "mainClass": "AmusingJoke",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch HitTheLottery",
+            "request": "launch",
+            "mainClass": "HitTheLottery",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch Pangram",
             "request": "launch",
             "mainClass": "Pangram",
