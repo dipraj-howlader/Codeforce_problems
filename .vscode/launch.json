@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QueueAtTheSchool",
+            "request": "launch",
+            "mainClass": "QueueAtTheSchool",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch AntonAndPolyhedrons",
             "request": "launch",
             "mainClass": "AntonAndPolyhedrons",
