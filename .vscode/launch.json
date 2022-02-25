@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Dragons",
+            "request": "launch",
+            "mainClass": "Dragons",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch VanyaAndLanterns",
+            "request": "launch",
+            "mainClass": "VanyaAndLanterns",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch QueueAtTheSchool",
             "request": "launch",
             "mainClass": "QueueAtTheSchool",
