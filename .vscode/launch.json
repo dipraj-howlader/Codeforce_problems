@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RegistrationSystem",
+            "request": "launch",
+            "mainClass": "RegistrationSystem",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch Dragons",
             "request": "launch",
             "mainClass": "Dragons",
