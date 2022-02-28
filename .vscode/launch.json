@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NewYearAndHurry",
+            "request": "launch",
+            "mainClass": "NewYearAndHurry",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch I_love_username",
+            "request": "launch",
+            "mainClass": "I_love_username",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch GameWithSticks",
+            "request": "launch",
+            "mainClass": "GameWithSticks",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoxAndSnake",
+            "request": "launch",
+            "mainClass": "FoxAndSnake",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch RegistrationSystem",
             "request": "launch",
             "mainClass": "RegistrationSystem",
