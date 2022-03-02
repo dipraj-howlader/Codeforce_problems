@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch YetAnotherTwoIntegersProblem",
+            "request": "launch",
+            "mainClass": "YetAnotherTwoIntegersProblem",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveSmallest",
+            "request": "launch",
+            "mainClass": "RemoveSmallest",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PoliceRecruits",
+            "request": "launch",
+            "mainClass": "PoliceRecruits",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch VasyaTheHipster",
+            "request": "launch",
+            "mainClass": "VasyaTheHipster",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch NewYearAndHurry",
             "request": "launch",
             "mainClass": "NewYearAndHurry",
