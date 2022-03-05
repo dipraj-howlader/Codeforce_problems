@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TeamOlympiad",
+            "request": "launch",
+            "mainClass": "TeamOlympiad",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch HolidayOfEquality",
+            "request": "launch",
+            "mainClass": "HolidayOfEquality",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChoosingTeams",
+            "request": "launch",
+            "mainClass": "ChoosingTeams",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch T_primes",
+            "request": "launch",
+            "mainClass": "T_primes",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShortSubstrings",
+            "request": "launch",
+            "mainClass": "ShortSubstrings",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch DesignTutorial",
             "request": "launch",
             "mainClass": "DesignTutorial",
