@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EvenArray",
+            "request": "launch",
+            "mainClass": "EvenArray",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpyDetected",
+            "request": "launch",
+            "mainClass": "SpyDetected",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch TwoArraysAndSwaps",
             "request": "launch",
             "mainClass": "TwoArraysAndSwaps",
