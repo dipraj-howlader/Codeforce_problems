@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TwoArraysAndSwaps",
+            "request": "launch",
+            "mainClass": "TwoArraysAndSwaps",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch TeamOlympiad",
             "request": "launch",
             "mainClass": "TeamOlympiad",
