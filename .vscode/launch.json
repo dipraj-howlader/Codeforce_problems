@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IlyaAndBankAccount",
+            "request": "launch",
+            "mainClass": "IlyaAndBankAccount",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalancedArray",
+            "request": "launch",
+            "mainClass": "BalancedArray",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch EvenArray",
             "request": "launch",
             "mainClass": "EvenArray",
