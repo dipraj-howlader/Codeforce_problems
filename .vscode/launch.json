@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CheapTravel",
+            "request": "launch",
+            "mainClass": "CheapTravel",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch IlyaAndBankAccount",
             "request": "launch",
             "mainClass": "IlyaAndBankAccount",
