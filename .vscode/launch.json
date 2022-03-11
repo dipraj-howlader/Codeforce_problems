@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MadokaAndMathDad",
+            "request": "launch",
+            "mainClass": "MadokaAndMathDad",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoNotBeDistracted",
+            "request": "launch",
+            "mainClass": "DoNotBeDistracted",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch RequiredRemainder",
+            "request": "launch",
+            "mainClass": "RequiredRemainder",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Candies",
+            "request": "launch",
+            "mainClass": "Candies",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MishkaAndGame",
+            "request": "launch",
+            "mainClass": "MishkaAndGame",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch DeletionsOfTwoAdjacentLetters",
+            "request": "launch",
+            "mainClass": "DeletionsOfTwoAdjacentLetters",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch CheapTravel",
             "request": "launch",
             "mainClass": "CheapTravel",
