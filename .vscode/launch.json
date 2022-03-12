@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SoftDrinking",
+            "request": "launch",
+            "mainClass": "SoftDrinking",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch MadokaAndMathDad",
             "request": "launch",
             "mainClass": "MadokaAndMathDad",
