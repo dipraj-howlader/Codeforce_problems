@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CarrotCakes",
+            "request": "launch",
+            "mainClass": "CarrotCakes",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch DigitsSum",
+            "request": "launch",
+            "mainClass": "DigitsSum",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch SashaAndSticks",
             "request": "launch",
             "mainClass": "SashaAndSticks",
