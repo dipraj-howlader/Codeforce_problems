@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DislikeofThrees",
+            "request": "launch",
+            "mainClass": "DislikeofThrees",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch HonestCoach",
+            "request": "launch",
+            "mainClass": "HonestCoach",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch GiftsFixing",
+            "request": "launch",
+            "mainClass": "GiftsFixing",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch InterestingDrink",
+            "request": "launch",
+            "mainClass": "InterestingDrink",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch LocustLocus",
+            "request": "launch",
+            "mainClass": "LocustLocus",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch KnotKnowledge",
+            "request": "launch",
+            "mainClass": "KnotKnowledge",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimalSquare",
+            "request": "launch",
+            "mainClass": "MinimalSquare",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch CarrotCakes",
             "request": "launch",
             "mainClass": "CarrotCakes",
