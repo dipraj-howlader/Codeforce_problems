@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Prefixs",
+            "request": "launch",
+            "mainClass": "Prefixs",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrefixRemovals",
+            "request": "launch",
+            "mainClass": "PrefixRemovals",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumCakeTastiness",
+            "request": "launch",
+            "mainClass": "MaximumCakeTastiness",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch SerejaAndDima",
+            "request": "launch",
+            "mainClass": "SerejaAndDima",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpeedTesting",
+            "request": "launch",
+            "mainClass": "SpeedTesting",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoringApartments",
+            "request": "launch",
+            "mainClass": "BoringApartments",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch DislikeofThrees",
             "request": "launch",
             "mainClass": "DislikeofThrees",
