@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BlackSquare",
+            "request": "launch",
+            "mainClass": "BlackSquare",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlusOneOnTheSubset",
+            "request": "launch",
+            "mainClass": "PlusOneOnTheSubset",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BachgoldProblem2",
+            "request": "launch",
+            "mainClass": "BachgoldProblem2",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BachgoldProblem",
+            "request": "launch",
+            "mainClass": "BachgoldProblem",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch Prefixs",
             "request": "launch",
             "mainClass": "Prefixs",
