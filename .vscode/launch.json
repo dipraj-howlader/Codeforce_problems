@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch XYSequence",
+            "request": "launch",
+            "mainClass": "XYSequence",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mains",
+            "request": "launch",
+            "mainClass": "Mains",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoenixAndBalance",
+            "request": "launch",
+            "mainClass": "PhoenixAndBalance",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch AgainTwentyFive",
+            "request": "launch",
+            "mainClass": "AgainTwentyFive",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Borze",
+            "request": "launch",
+            "mainClass": "Borze",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PolycarpAndCoins",
+            "request": "launch",
+            "mainClass": "PolycarpAndCoins",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MagicalSticks",
+            "request": "launch",
+            "mainClass": "MagicalSticks",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch BlackSquare",
             "request": "launch",
             "mainClass": "BlackSquare",
