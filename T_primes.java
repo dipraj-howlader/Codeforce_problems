@@ -1,39 +1,41 @@
+import java.awt.dnd.Autoscroll;
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.*;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class T_primes {
-   public static void main(String[] args) {
-       Scanner iScanner = new Scanner(System.in);
-       int n = iScanner.nextInt();
-       for(int i = 1;i<=n;i++){
-        long number = iScanner.nextLong();
-        String tprime = isTPrime(number);
-        System.out.println(tprime);
-       }
-   }
 
-private static String isTPrime(long number) {
-    long length =String.valueOf(number).length();
-    int count = 0;
-    if(length>5){
-        for(int i=2;i*i<number;i++){
-            if(number%i==0)
-            count++;
-            if(count==2)
-            break;
+public class T_primes {
+//COPY FROM OTHER. I NEED TO SLEEP BRO, thats why I am submitting it
+    public static void main(String[] args) throws IOException, NullPointerException {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        long[] a=new long[n];
+        for(int i=0;i<n;i++)a[i]=sc.nextLong();
+
+        boolean[] p=new boolean[1000001];
+        p[0]=false;
+        p[1]=false;
+        p[2]=true;
+        for(int i=3;i<p.length;i+=2)p[i]=true;
+
+        for(int i=3;i<p.length;i+=2){
+            if(p[i]){
+                for(int j=3*i;j<p.length;j+=2*i)p[j]=false;
+            }
+        }
+        Set<Long> hs=new HashSet<>();
+        hs.add(4L);
+        for(int i=3;i<p.length;i+=2){
+            if(p[i])hs.add((long)i*i);
+        }
+        for(int i=0;i<n;i++){
+            if(hs.contains(a[i])) System.out.println("YES");
+            else System.out.println("NO");
         }
     }
-    else{
-    for(long i=2;i<=number/2;i++){
-        if(number%i==0)
-        count++;
-        if(count==2)
-        break;
-    }
-}
-    count = count +2;
-    if(count==3)
-    return "YES";
-    else
-    return "NO";
-} 
+
 }

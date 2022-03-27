@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Garden",
+            "request": "launch",
+            "mainClass": "Garden",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MikeAndPalindrome",
+            "request": "launch",
+            "mainClass": "MikeAndPalindrome",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch CodeforceDivP1779",
+            "request": "launch",
+            "mainClass": "CodeforceDivP1779",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch AntiLightSCellGuessing",
+            "request": "launch",
+            "mainClass": "AntiLightSCellGuessing",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddDivisor",
+            "request": "launch",
+            "mainClass": "OddDivisor",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MakeAP",
+            "request": "launch",
+            "mainClass": "MakeAP",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch CF2problem1",
+            "request": "launch",
+            "mainClass": "CF2problem1",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch DIVMOD",
             "request": "launch",
             "mainClass": "DIVMOD",
