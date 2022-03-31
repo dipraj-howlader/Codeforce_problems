@@ -1,11 +1,14 @@
+/**
+ * @author Dipraj Howlader
+ * @email dipraj17@cse.pstu.ac.bd
+ * @create date 2022-03-31----13:52:20
+ * @modify date 2022-03-31----13:52:20
+ * @desc [description]
+ */
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class DivideAndMultiply {
-    /*
-     * Dipraj Howlader
-     * dipraj17@cse.pstu.ac.bd
-     */
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         int test = iScanner.nextInt();
