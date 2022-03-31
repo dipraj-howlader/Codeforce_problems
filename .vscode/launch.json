@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DivideAndMultiply",
+            "request": "launch",
+            "mainClass": "DivideAndMultiply",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch GCDProblem",
+            "request": "launch",
+            "mainClass": "GCDProblem",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfOddIntegers",
+            "request": "launch",
+            "mainClass": "SumOfOddIntegers",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongComparison",
+            "request": "launch",
+            "mainClass": "LongComparison",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinorReduction",
+            "request": "launch",
+            "mainClass": "MinorReduction",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch check",
+            "request": "launch",
+            "mainClass": "check",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Buttons",
+            "request": "launch",
+            "mainClass": "Buttons",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch Garden",
             "request": "launch",
             "mainClass": "Garden",
