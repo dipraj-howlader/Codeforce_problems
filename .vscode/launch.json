@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Round780_A",
+            "request": "launch",
+            "mainClass": "ContestOfCodeforces.Round780_A",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch DivideAndMultiply",
             "request": "launch",
             "mainClass": "DivideAndMultiply",
