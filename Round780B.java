@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class check {
+public class Round780B {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         int test = iScanner.nextInt();
