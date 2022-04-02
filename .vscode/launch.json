@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PojaVerdon",
+            "request": "launch",
+            "mainClass": "PojaVerdon",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch TheGreatHero",
+            "request": "launch",
+            "mainClass": "TheGreatHero",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo3",
+            "request": "launch",
+            "mainClass": "CollectionLibaray.Demo3",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrDemo2",
+            "request": "launch",
+            "mainClass": "CollectionLibaray.ArrDemo2",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrlist",
+            "request": "launch",
+            "mainClass": "CollectionLibaray.Arrlist",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch AB",
             "request": "launch",
             "mainClass": "AB",
