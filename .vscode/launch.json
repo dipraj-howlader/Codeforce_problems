@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CaseOfTheZerosAndOnes",
+            "request": "launch",
+            "mainClass": "CaseOfTheZerosAndOnes",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructTheString",
+            "request": "launch",
+            "mainClass": "ConstructTheString",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Keyboard",
+            "request": "launch",
+            "mainClass": "Keyboard",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PractiseForCCE",
+            "request": "launch",
+            "mainClass": "PractiseForCCE",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sale",
+            "request": "launch",
+            "mainClass": "Sale",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewYearsNumber",
+            "request": "launch",
+            "mainClass": "NewYearsNumber",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch VasyaAndSocks",
+            "request": "launch",
+            "mainClass": "VasyaAndSocks",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplyByTwoAndDivBySix",
+            "request": "launch",
+            "mainClass": "MultiplyByTwoAndDivBySix",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch PojaVerdon",
             "request": "launch",
             "mainClass": "PojaVerdon",
