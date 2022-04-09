@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GettingZero",
+            "request": "launch",
+            "mainClass": "GettingZero",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayBalancing",
+            "request": "launch",
+            "mainClass": "ArrayBalancing",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayCloningTechnique",
+            "request": "launch",
+            "mainClass": "ArrayCloningTechnique",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch GCDLCM",
+            "request": "launch",
+            "mainClass": "GCDLCM",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch CaseOfTheZerosAndOnes",
             "request": "launch",
             "mainClass": "CaseOfTheZerosAndOnes",
