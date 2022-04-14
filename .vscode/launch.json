@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch K_thNotDivisiblebyn",
+            "request": "launch",
+            "mainClass": "K_thNotDivisiblebyn",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Game01",
+            "request": "launch",
+            "mainClass": "Game01",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Two_gram",
+            "request": "launch",
+            "mainClass": "Two_gram",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch FillingDiamonds",
+            "request": "launch",
+            "mainClass": "FillingDiamonds",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BusinessTrip",
+            "request": "launch",
+            "mainClass": "BusinessTrip",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch KanaAndDragonQuestGame",
+            "request": "launch",
+            "mainClass": "KanaAndDragonQuestGame",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PolycarpAndSumsOfSubsequences",
+            "request": "launch",
+            "mainClass": "PolycarpAndSumsOfSubsequences",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch GettingZero",
             "request": "launch",
             "mainClass": "GettingZero",
