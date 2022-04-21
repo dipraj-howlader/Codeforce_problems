@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OddEvenIncrements",
+            "request": "launch",
+            "mainClass": "OddEvenIncrements",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triple",
+            "request": "launch",
+            "mainClass": "Triple",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Division",
+            "request": "launch",
+            "mainClass": "Division",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch NastyaAndRice",
+            "request": "launch",
+            "mainClass": "NastyaAndRice",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch K_thNotDivisiblebyn",
             "request": "launch",
             "mainClass": "K_thNotDivisiblebyn",
