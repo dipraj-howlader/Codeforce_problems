@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ConsecutivePointsSegment",
+            "request": "launch",
+            "mainClass": "ConsecutivePointsSegment",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuildings",
+            "request": "launch",
+            "mainClass": "StringBuildings",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilding",
+            "request": "launch",
+            "mainClass": "StringBuilding",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch OddEvenIncrements",
             "request": "launch",
             "mainClass": "OddEvenIncrements",

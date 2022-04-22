@@ -1,9 +1,10 @@
-import java.util.Arrays;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 import java.util.StringTokenizer;
-public class Triple {
+
+public class A1 {
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;
@@ -51,35 +52,6 @@ public class Triple {
                 e.printStackTrace();
             }
             return str;
-        }
-    }
-    public static void main(String[] args) {
-        FastReader iScanner = new FastReader();
-        int test = iScanner.nextInt();
-        while(test>0){
-            test--;
-            int len = iScanner.nextInt();
-            int[] arr = new int[len];
-            for(int i=0;i<len;i++){
-                arr[i] = iScanner.nextInt();
-            }
-            Arrays.sort(arr);
-            int have = 1;
-            for(int i=1;i<len;i++){
-                if(arr[i]==arr[i-1]){
-                    have++;
-                }
-                else
-                have =1;
-
-                if(have==3){
-                    System.out.println(arr[i]);
-                    break;
-                }
-            }
-            if(have<3){
-                 System.out.println("-1");   
-            }
         }
     }
 }

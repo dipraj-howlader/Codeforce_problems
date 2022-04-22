@@ -1,9 +1,9 @@
-import java.util.Arrays;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-public class Triple {
+
+public class ConsecutivePointsSegment {
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;
@@ -54,32 +54,57 @@ public class Triple {
         }
     }
     public static void main(String[] args) {
-        FastReader iScanner = new FastReader();
-        int test = iScanner.nextInt();
+        FastReader iString  = new FastReader();
+        int test = iString.nextInt();
         while(test>0){
             test--;
-            int len = iScanner.nextInt();
-            int[] arr = new int[len];
-            for(int i=0;i<len;i++){
-                arr[i] = iScanner.nextInt();
-            }
-            Arrays.sort(arr);
-            int have = 1;
-            for(int i=1;i<len;i++){
-                if(arr[i]==arr[i-1]){
-                    have++;
+            int n = iString.nextInt();
+            int[] arr = new int[n];
+            int[] arrdif = new int[n-1];
+            for(int i=0;i<n;i++){
+                arr[i] = iString.nextInt();
+                if(i>0){
+                    arrdif[i-1] = arr[i]-arr[i-1];
                 }
-                else
-                have =1;
-
-                if(have==3){
-                    System.out.println(arr[i]);
+            }
+            int count2=0;
+            int count3=0;
+            int countMore = 0;
+            int reverse = 0;
+            for(int i=0;i<n-1;i++){
+                if(arrdif[i]==2){
+                    count2++;
+                }
+                else if(arrdif[i]==3)
+                count3++;
+                else if(arrdif[i]>3)
+                countMore++;
+             
+                if(countMore>0)
+                {
+                    System.out.println("NO");
+                    reverse =1;
+                    break;
+                }
+                if(count2==3){
+                    System.out.println("NO");
+                    reverse=1;
+                    break;
+                }
+                if(count3==2)
+                {
+                    System.out.println("NO");
+                    reverse=1;
+                    break;
+                }
+                if(count2==1 && count3==1){
+                    System.out.println("NO");
+                    reverse=1;
                     break;
                 }
             }
-            if(have<3){
-                 System.out.println("-1");   
-            }
+            if(reverse!=1)
+            System.out.println("YES");
         }
     }
 }
