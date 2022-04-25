@@ -6,10 +6,24 @@ public class PhoenixAndBalance {
         int test = iScanner.nextInt();
         while(test>0){
             test --;
-            long n = iScanner.nextLong();
-            n--;
-            n = (int) Math.pow(2, n) -2;
-            System.out.println(n);
+            int n = iScanner.nextInt();
+            int suma = 0;
+            int sumb = 0;
+            for(int i=1;i<=n;i=i+2){
+                int a = (int) Math.pow(2, i);
+                int b = (int) Math.pow(2, i+1);
+                if(suma<sumb){
+                suma = suma + b;
+                sumb = sumb + a;
+                }
+                else
+                {
+                suma = suma + a;
+                sumb = sumb + b;
+                }
+            }
+            int dis = (int)Math.abs(suma-sumb);
+            System.out.println(dis);
         }
     }
 }

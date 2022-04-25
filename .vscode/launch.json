@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FairDivision",
+            "request": "launch",
+            "mainClass": "FairDivision",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch CargoElevator",
+            "request": "launch",
+            "mainClass": "CargoElevator",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExpressionSign",
+            "request": "launch",
+            "mainClass": "ExpressionSign",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuzzProgression",
+            "request": "launch",
+            "mainClass": "BuzzProgression",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch FriendVisit",
+            "request": "launch",
+            "mainClass": "FriendVisit",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch ConsecutivePointsSegment",
             "request": "launch",
             "mainClass": "ConsecutivePointsSegment",
