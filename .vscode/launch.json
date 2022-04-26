@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinelandMail",
+            "request": "launch",
+            "mainClass": "LinelandMail",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch DominantPiranha",
+            "request": "launch",
+            "mainClass": "DominantPiranha",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MagicNumbers",
+            "request": "launch",
+            "mainClass": "MagicNumbers",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch FairDivision",
             "request": "launch",
             "mainClass": "FairDivision",
