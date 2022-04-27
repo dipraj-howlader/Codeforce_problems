@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DisplayTheNumber",
+            "request": "launch",
+            "mainClass": "DisplayTheNumber",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MakeProductEqualOne",
+            "request": "launch",
+            "mainClass": "MakeProductEqualOne",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch DistanceandAxis",
+            "request": "launch",
+            "mainClass": "DistanceandAxis",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch LinelandMail",
             "request": "launch",
             "mainClass": "LinelandMail",
