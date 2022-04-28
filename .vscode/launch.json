@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ShiftingStacks",
+            "request": "launch",
+            "mainClass": "ShiftingStacks",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniqueNumber",
+            "request": "launch",
+            "mainClass": "UniqueNumber",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoodBuying",
+            "request": "launch",
+            "mainClass": "FoodBuying",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PizzaForces",
+            "request": "launch",
+            "mainClass": "PizzaForces",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch DisplayTheNumber",
             "request": "launch",
             "mainClass": "DisplayTheNumber",
