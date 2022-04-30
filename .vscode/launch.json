@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CutRibbon",
+            "request": "launch",
+            "mainClass": "CutRibbon",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubtleSubstringSubtraction",
+            "request": "launch",
+            "mainClass": "SubtleSubstringSubtraction",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch WizardOfOrz",
+            "request": "launch",
+            "mainClass": "WizardOfOrz",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcitingBets",
+            "request": "launch",
+            "mainClass": "ExcitingBets",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch ShiftingStacks",
             "request": "launch",
             "mainClass": "ShiftingStacks",
