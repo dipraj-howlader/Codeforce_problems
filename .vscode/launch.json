@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InfiniteReplacement",
+            "request": "launch",
+            "mainClass": "InfiniteReplacement",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dictionary",
+            "request": "launch",
+            "mainClass": "Dictionary",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberTransformation",
+            "request": "launch",
+            "mainClass": "NumberTransformation",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Decoding",
+            "request": "launch",
+            "mainClass": "Decoding",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Maximums",
+            "request": "launch",
+            "mainClass": "Maximums",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch CutRibbon",
             "request": "launch",
             "mainClass": "CutRibbon",
