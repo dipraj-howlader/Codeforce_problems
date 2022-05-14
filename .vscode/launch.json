@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch contest1",
+            "request": "launch",
+            "mainClass": "contest1",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch contest1$FastReader",
+            "request": "launch",
+            "mainClass": "contest1$FastReader",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch OracAndFactors",
+            "request": "launch",
+            "mainClass": "OracAndFactors",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Devu",
+            "request": "launch",
+            "mainClass": "Devu",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProfSlim",
+            "request": "launch",
+            "mainClass": "ProfSlim",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MakeItIncreasing",
+            "request": "launch",
+            "mainClass": "MakeItIncreasing",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoodForAnimals",
+            "request": "launch",
+            "mainClass": "FoodForAnimals",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch InfiniteReplacement",
             "request": "launch",
             "mainClass": "InfiniteReplacement",
