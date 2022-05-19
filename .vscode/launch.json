@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Divi",
+            "request": "launch",
+            "mainClass": "Divi",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch contest2",
+            "request": "launch",
+            "mainClass": "contest2",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Party",
+            "request": "launch",
+            "mainClass": "Party",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch contest1",
             "request": "launch",
             "mainClass": "contest1",
