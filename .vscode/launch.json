@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BadBoy",
+            "request": "launch",
+            "mainClass": "BadBoy",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch YetAnotherTetrisProblem",
+            "request": "launch",
+            "mainClass": "YetAnotherTetrisProblem",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch Divi",
             "request": "launch",
             "mainClass": "Divi",
