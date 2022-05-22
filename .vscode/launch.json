@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Contest793",
+            "request": "launch",
+            "mainClass": "Contest793",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contest793B",
+            "request": "launch",
+            "mainClass": "Contest793B",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contest793A",
+            "request": "launch",
+            "mainClass": "Contest793A",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch BadBoy",
             "request": "launch",
             "mainClass": "BadBoy",
