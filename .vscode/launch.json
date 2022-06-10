@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ContestCodeforce795",
+            "request": "launch",
+            "mainClass": "ContestCodeforce795",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch Contest793",
             "request": "launch",
             "mainClass": "Contest793",

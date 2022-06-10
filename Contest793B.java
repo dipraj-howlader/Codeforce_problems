@@ -61,21 +61,13 @@ public class Contest793B {
         while(test>0){
             test--;
             int n = iScanner.nextInt();
-            int[] arr = new int[n];
-            int max = Integer.MAX_VALUE;
-            int count = 0;
+            long ans = (1<<20)-1;
             for(int i=0;i<n;i++){
-                arr[i] = iScanner.nextInt();
+                long x  = iScanner.nextLong();
+                if(x!=i)
+                ans = ans & x;
             }
-            for(int i=1;i<n;i++){
-                if(arr[i-1]>arr[i])
-                {
-                    count = arr[i];
-                    if(count<max)
-                    max = count;
-                }
-            }
-            System.out.println(max);
+            System.out.println(ans);
         }
     }
 }
