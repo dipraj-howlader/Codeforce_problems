@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SubsetMex",
+            "request": "launch",
+            "mainClass": "SubsetMex",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeSubtraction",
+            "request": "launch",
+            "mainClass": "PrimeSubtraction",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch MochaAndMath",
+            "request": "launch",
+            "mainClass": "MochaAndMath",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlarmClock",
+            "request": "launch",
+            "mainClass": "AlarmClock",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch ContestCodeforce795",
             "request": "launch",
             "mainClass": "ContestCodeforce795",
