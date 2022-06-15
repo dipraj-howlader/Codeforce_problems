@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AlmostPrime",
+            "request": "launch",
+            "mainClass": "AlmostPrime",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch LunchRush",
+            "request": "launch",
+            "mainClass": "LunchRush",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddGrasshopper",
+            "request": "launch",
+            "mainClass": "OddGrasshopper",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayReodering",
+            "request": "launch",
+            "mainClass": "ArrayReodering",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch SubsetMex",
             "request": "launch",
             "mainClass": "SubsetMex",
