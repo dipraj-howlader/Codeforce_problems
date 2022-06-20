@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class UniqueNumber {
@@ -14,21 +16,17 @@ public class UniqueNumber {
             else if(n<10)
             System.out.println(n);
             else{
-                n = n-9;
-            while(n>0){
-                if(n<9){
-                    str = str + n;
-                    n=0;
-                }
-                else{
-                    char s = str.charAt(str.length()-1);
-                    int num = Integer.valueOf(s);
-                    num--;
-                    str = str + num;
-                    n = n - num;
-                }
-            }
-            System.out.println(str);
+               int sum = 0, last = 9;
+               ArrayList<Integer> arrlist = new ArrayList<>();
+               while(sum<n && last>0){
+                arrlist.add(Integer.min(n-sum, last));
+                sum = sum + last;
+                last--;
+               }
+               for(int i=arrlist.size()-1;i>=0;i--){
+                System.out.print(arrlist.get(i));
+               }
+               System.out.println();
         }
         }
     }

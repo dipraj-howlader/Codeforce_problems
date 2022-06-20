@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CubesSorting",
+            "request": "launch",
+            "mainClass": "CubesSorting",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChipsMoving",
+            "request": "launch",
+            "mainClass": "ChipsMoving",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationSort",
+            "request": "launch",
+            "mainClass": "PermutationSort",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch StrangePartition",
+            "request": "launch",
+            "mainClass": "StrangePartition",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch AlmostPrime",
             "request": "launch",
             "mainClass": "AlmostPrime",
