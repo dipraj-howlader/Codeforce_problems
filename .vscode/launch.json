@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch HackkerankContest1",
+            "request": "launch",
+            "mainClass": "HackkerankContest1",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
+            "name": "Launch CandiesDivision",
+            "request": "launch",
+            "mainClass": "CandiesDivision",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch CubesSorting",
             "request": "launch",
             "mainClass": "CubesSorting",
