@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Reversort",
+            "request": "launch",
+            "mainClass": "Reversort",
+            "projectName": "src_95618093"
+        },
+        {
+            "type": "java",
             "name": "Launch Solution",
             "request": "launch",
             "mainClass": "Solution",
