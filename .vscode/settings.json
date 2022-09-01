@@ -4,7 +4,9 @@
         "ostream": "cpp",
         "valarray": "cpp",
         "map": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "span": "cpp",
+        "type_traits": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
