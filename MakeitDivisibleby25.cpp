@@ -1,58 +1,62 @@
 // Dipraj
-// unsolved
+
 #include <bits/stdc++.h>
 using namespace std;
-#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL)
-#define yes cout<<"YES"<<"\n";
-#define no cout<<"NO"<<"\n";
+#define FAST_IO                       \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL)
+#define yes cout << "YES" \
+                 << "\n";
+#define no cout << "NO" \
+                << "\n";
 #define ll long long int
 
 int main()
 {
     FAST_IO;
-    int t;
-    cin>>t;
-    while (t--)
+    int n;
+    cin >> n;
+
+    while (n--)
     {
-        int x;
-        cin>>x;
-        if(x%2==0)
-        cout<<0<<endl;
-        else{
-            char last;
-            int indexLast = 0;
-            int indexFirst = 0;
-            string str = to_string(x);
-            for (int i =  str.length()-1; i >=0; i--)
+        ll num;
+        queue<int> st;
+        cin >> num;
+        while (num != 0)
+        {
+            int pu = num%10;
+            st.push(pu);
+            num = num / 10;
+        }
+        int pastSize = st.size();
+        int five = 0;
+        int zero = 0;
+        for (int i = 0; i <pastSize; i++)
+        {
+            int top = st.front();
+            st.pop();
+            if (five == -1)
             {
-                if(str.at(i)=='5' ||str.at(i)=='0'){
-                    last = str.at(i);
-                    indexLast = i;
-                    break;
-                }   
-            }
-            char sr1,sr2;
-            if(last=='5')
-            {
-                sr1 = '2';
-                sr2 = '7';
-            }
-            else{
-                sr1 = '0';
-                sr2 = '5';
-            }
-             for (int i = 0; i < str.length(); i++)
-            {
-                if(str.at(i)==sr1 || str.at(i)==sr2){
-                    indexFirst = i;
+                if (top == 2 || top == 7)
+                {
                     break;
                 }
             }
-            int midlePart = indexLast-indexFirst-1;
-            int lastPart = str.length()-indexLast-1;
-            cout<<midlePart+lastPart<<endl;
-
+            if (zero == -2)
+            {
+                if (top ==0 || top ==5)
+                break;
+            }
+            if ((top == 5 || top == 0) && (five == 0 || zero == 0))
+            {
+                if (top == 5)
+                    five = -1;
+                else
+                    zero = -2;
+            }
         }
+        cout <<pastSize- (st.size() + 2) << endl;
+        pastSize =0;
+        
     }
-    
 }
